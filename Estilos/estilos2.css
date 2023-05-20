@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 960px;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Columnas */
+  .columna-izquierda {
+    float: left;
+    width: 260px;
+    margin-right: 20px;
+  }
+  
+  .columna-derecha {
+    float: right;
+    width: 700px;
+    overflow: hidden;
+  }
+  
+  /* Listas en tres columnas */
+  ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos específicos para la lista de contenido */
+  ul#contenido {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  ul#contenido li {
+    margin-bottom: 10px;
+  }
+  
+  /* Limpiar el float después de las columnas */
+  .clear {
+    clear: both;
+  }
